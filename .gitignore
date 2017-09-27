@@ -2,4 +2,7 @@
 /pkg
 /src
 
+mole
+
+.env
 .DS_Store
