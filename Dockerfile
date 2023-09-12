@@ -1,4 +1,4 @@
-FROM golang:1.9-alpine
+FROM golang:1-alpine
 WORKDIR /go/src/github.com/undeadops/mole
 COPY . /go/src/github.com/undeadops/mole/
 RUN CGO_ENABLED=0 GOOS=linux go build -o mole api/*.go
